@@ -1,0 +1,10 @@
+/*body {
+  background-image:url('./rainyriver.jpg');
+  background-repeat:no-repeat;
+  background-size: 100%;
+  position:relative;
+}*/
+.btn-group-vertical a:hover {
+  text-decoration:none;
+  color:white;
+}
