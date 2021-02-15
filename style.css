@@ -25,7 +25,8 @@ html {
   margin-left: -15px;
   margin-right: -15px;
 }
-#portfolio {
-
-
+#portfolio img {
+min-height:300px;
+border-radius:5px;
+padding: 10px;
 }
