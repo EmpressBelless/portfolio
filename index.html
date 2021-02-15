@@ -11,8 +11,8 @@
     <title>Meet Suzette</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-xl navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Suzette Wallin</a>
+<nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="#">Click Me to see the pretty sunset</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -20,9 +20,6 @@
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
           <a class="nav-link" href="#aboutme">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#contact">Contact</a>
@@ -33,34 +30,34 @@
       </ul>
     </div>
   </nav>
-<div class="container-fluid">
-  <div class="row no-gutters">
-    <div class="col-sm-8">
-    <img class="img-fluid" src="rainyriver.jpg"/>
+  <section id="features">
+    <div class="Container-fluid">
+
     </div>
-    <div class="col-sm-4 bg-dark" id="aboutme">
-      <div class="row justify-content-center">
-      <div class="card bg-dark text-white" style="width: 18rem;">
-        <img class="card-img-top img-fluid w-50" src='./Profile.jpg' alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Suzette Wallin</h5>
-          <p class="card-text">I live in a rural Minnesota town, work FT, married with two dogs and a cat.  I enjoy programming, fishing and painting in my free time</p>
-          <a href="#" class="btn btn-dark">Go somewhere</a>
-        </div>
+  </section>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="card text-center bg-dark text-white" id="aboutme">
+          <div class="card-header">
+            Suzette Wallin
+          </div>
+          <div class="card-body bg-dark text-white">
+            <h5 class="card-title">Full-Stack Developer student</h5>
+            <p class="card-text">Learning to code and creating websites to be a better me. <br>Staying warm when I'm not ice fishing in rural Minnesota</p>
+            <a class="btn btn-info" data-toggle="collapse" href="#portfolio" role="button" aria-expanded="false" aria-controls="collapseExample">Click here to see my portfolio</a>
+          </div>
         </div>
       </div>
     </div>
-    </div>
   </div>
-<div class="card-group" id="portfolio">
-  <div class="card">
-    <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+<div class="container-fluid">
+  <div class="card-group collapse" id="portfolio">
+    <div class="card">
+      <img class="card-img-top" src=".../100px180/" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
     </div>
   </div>
   <div class="card">
@@ -69,8 +66,12 @@
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
     </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
     </div>
   </div>
   <div class="card">
@@ -79,10 +80,8 @@
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
     </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
-    </div>
   </div>
+</div>
 </div>
 <div class="container-fluid" id="contact">
   <div class="row">
@@ -92,12 +91,13 @@
 <footer>
   <div class="container-fluid" id="socialmedia">
     <div class="row">
-      <div class="col-sm-6 bg-dark pt-2">
+      <div class="col-sm-6 bg-dark pt-2 text-white">
 Meet me at
       </div>
       <div class="col-sm-6 bg-dark pt-2">
         <a href="www.linkedin.com/"><i class="fa fa linkedin"></i></a>
       </div>
+     
     </div>
   </div>
 </footer>

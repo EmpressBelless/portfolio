@@ -4,3 +4,28 @@
   background-size: 100%;
   position:relative;
 }*/
+html {
+  scroll-behavior:smooth;
+}
+.img-fluid {
+  width: 100%;
+}
+#features {
+  background-image:url('./rainyriver.jpg');
+  background-attachment:fixed;
+  background-size:cover;
+  min-height:800px;
+}
+.container-fluid {
+  margin-left: -15px;
+  margin-right: -15px;
+  
+}
+.card {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+#portfolio {
+
+
+}
