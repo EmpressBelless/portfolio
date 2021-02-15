@@ -4,10 +4,8 @@
   background-size: 100%;
   position:relative;
 }*/
-@media (max-width: 768px) {
-  footer {
-   display:none;
-  }
+body {
+  font-family:'Lucida Sans' !important; 
 }
 .img-fluid {
   width: 100%;
